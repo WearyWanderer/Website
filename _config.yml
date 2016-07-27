@@ -1,0 +1,54 @@
+#To cloud9 host command line this - jekyll serve --host $IP --port $PORT --baseurl ''
+# Site
+title:              Andrew Ayre
+bio:                'Concept, Creation & Code.'
+description: >
+                    "Student Software Engineer & Computer Games Programmer @ Teesside University. 
+                     Currently working on all things games, and my deep belief network FYP."
+reading_time:       true
+words_per_minute:   200
+logo:               'assets/img/me.png'
+background:         'assets/img/background.png'
+tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+locale:             en_US
+url:                "http://portfolio-wearywanderer.c9users.io/"
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Comments
+#disqus_shortname:   taylantatli
+
+# Social
+# if you don't have any of social below, comment the line.
+#facebook:          username
+github:             WearyWanderer
+stackoverflow:      3376692/wearywanderer   #from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           andrew-ayre-17695773
+instagram:          allthesebitterthings
+email:              n3078472@live.tees.ac.uk
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
