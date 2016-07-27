@@ -11,7 +11,7 @@ logo:               'assets/img/me.png'
 background:         'assets/img/background.png'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                "//portfolio-wearywanderer.c9users.io/"
+url:                "//wearywanderer.github.io/"
 
 # Jekyll
 permalink:          /:title/
