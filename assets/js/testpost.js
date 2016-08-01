@@ -18,7 +18,8 @@
 	var barDemo = d3.select("#example").
 	  append("svg:svg").
 	  attr("width", width).
-	  attr("height", height);
+	  attr("height", height).
+	  attr("style", "display:block; margin:auto;");
 
 	barDemo.selectAll("rect").
 	  data(data).
