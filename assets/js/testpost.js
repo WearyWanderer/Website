@@ -10,8 +10,8 @@
 	var width = (barWidth + 10) * data.length;
 	var height = 200;
 
-	var x = d3.scale.linear().domain([0, data.length]).range([0, width]);
-	var y = d3.scale.linear().domain([0, d3.max(data, function(datum) { return datum.books; })]).
+	var x = d3.scaleLinear().domain([0, data.length]).range([0, width]);
+	var y = d3.scaleLinear().domain([0, d3.max(data, function(datum) { return datum.books; })]).
 	  rangeRound([0, height]);
 
 	// add the canvas to the DOM
