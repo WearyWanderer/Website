@@ -1,6 +1,5 @@
-(function() {
-  window.onload = function() {
-    var data = [{year: 2006, books: 54},
+function simpleBar() {
+	var data = [{year: 2006, books: 54},
             {year: 2007, books: 43},
             {year: 2008, books: 41},
             {year: 2009, books: 44},
@@ -30,6 +29,6 @@
 	  attr("height", function(datum) { return y(datum.books); }).
 	  attr("width", barWidth).
 	  attr("fill", "#2d578b");
-  };
+};
 
-}).call(this);
+window.onload = simpleBar;
