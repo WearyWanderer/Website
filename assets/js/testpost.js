@@ -55,8 +55,8 @@ function interactiveBar() {
 	var x = d3.scaleLinear()
 	  .range([0, 300])
 	  .domain([0, maxCount]);
-	var y = d3.scaleOrdinal()
-	  .rangeRoundBands([0, 75])
+	var y = d3.scaleBand()
+	  .rangeRound([0, 75])
 	  .domain(sales.map(function(d, i) {
 		return d.product;
 	  }));
