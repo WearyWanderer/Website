@@ -44,6 +44,32 @@ function interactiveBar() {
 	  
 	var rects = barDemo.selectAll("rect")
 		.data(sales);
+		
+	var newRects = rects.enter();
+	
+	// recall that scales are functions that map from
+	// data space to screen space
+	var maxCount = d3.max(sales, function(d, i) {
+	  return d.count;
+	});
+	var x = d3.scaleLinear()
+	  .range([0, 300])
+	  .domain([0, maxCount]);
+	var y = d3.scaleOrdinal()
+	  .rangeRoundBands([0, 75])
+	  .domain(sales.map(function(d, i) {
+		return d.product;
+	  }));
+
+	newRects.append('rect')
+	  .attr('x', x(0))
+	  .attr('y', function(d, i) {
+		return y(d.product);
+	  })
+	  .attr('height', y.rangeBand())
+	  .attr('width', function(d, i) {
+		return x(d.count);
+	  });
 };
 
 function pageSVGSetup() {
