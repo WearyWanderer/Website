@@ -31,4 +31,24 @@ function simpleBar() {
 	  attr("fill", "#2d578b");
 };
 
-window.onload = simpleBar;
+function interactiveBar() {
+	var sales = [
+		{ product: 'Hoodie',  count: 7 },
+		{ product: 'Jacket',  count: 6 },
+		{ product: 'Snuggie', count: 9 },
+	];
+    
+	var barDemo = d3.select("#interactiveExample").
+		append("svg:svg").
+		attr("style", "display:block; margin:auto;");
+	  
+	var rects = barDemo.selectAll("rect")
+		.data(sales);
+};
+
+function pageSVGSetup() {
+	simpleBar();
+	interactiveBar();
+};
+
+window.onload = pageSVGSetup;
