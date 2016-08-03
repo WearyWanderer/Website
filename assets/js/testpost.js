@@ -63,7 +63,8 @@ function interactiveBar() {
 			.domain(sales.map(function(d, i) {
 				return d.product;
 			}))
-			.range([0,75]);
+			.range([0,75])
+			.paddingInner([0.1]);
 
 	newRects.append('rect')
 	  .attr('x', x(0))
