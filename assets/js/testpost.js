@@ -42,14 +42,16 @@ function interactiveBar() {
 		{ product: 'Snuggie', count: 9 },
 	];
     
-	var barDemo = d3.select("#interactiveExample").
-		append("svg:svg").
-		attr("style", "display:block; margin:auto;");
+	var barDemo = 	d3.select("#interactiveExample").
+					append("svg:svg").
+					attr("style", "display:block; margin:auto;");
 	  
 	var rects = barDemo.selectAll("rect")
-		.data(sales);
+				.data(sales);
 		
-	var newRects = rects.enter();
+	var newRects = 	rects
+					.enter()
+					.append("rect");
 	
 	// recall that scales are functions that map from
 	// data space to screen space
@@ -66,15 +68,16 @@ function interactiveBar() {
 			.range([0,75])
 			.paddingInner([0.1]);
 
-	newRects.append('rect')
-	  .attr('x', x(0))
-	  .attr('y', function(d, i) {
-		return y(d.product);
-	  })
-	  .attr('height', y.bandwidth())
-	  .attr('width', function(d, i) {
-		return x(d.count);
-	  });
+	newRects.transition()
+			.duration(2000)
+			.attr('x', x(0))
+			.attr('y', function(d, i) {
+				return y(d.product);
+			})
+			.attr('height', y.bandwidth())
+			.attr('width', function(d, i) {
+				return x(d.count);
+			});
 };
 
 function pageSVGSetup() {
