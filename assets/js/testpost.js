@@ -62,8 +62,8 @@ function interactiveBar() {
 	var y = d3.scaleBand()
 			.domain(sales.map(function(d, i) {
 				return d.product;
-			})
-			.range([0,75]));
+			}))
+			.range([0,75]);
 
 	newRects.append('rect')
 	  .attr('x', x(0))
