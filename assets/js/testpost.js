@@ -48,11 +48,7 @@ function interactiveBar() {
 	  
 	var rects = barDemo.selectAll("rect")
 				.data(sales);
-		
-	var newRects = 	rects
-					.enter()
-					.append("rect");
-	
+				
 	// recall that scales are functions that map from
 	// data space to screen space
 	var maxCount = d3.max(sales, function(d, i) {
@@ -67,6 +63,16 @@ function interactiveBar() {
 			}))
 			.range([0,75])
 			.paddingInner([0.1]);
+		
+	var newRects = 	rects
+					.enter()
+					.append("rect")
+					.attr('x', x(0))
+					.attr('y', function(d, i) {
+						return y(d.product);
+					})
+					.attr('height', y.bandwidth())
+	
 
 	newRects.transition()
 			.duration(2000)
