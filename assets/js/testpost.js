@@ -9,9 +9,13 @@ function simpleBar() {
 	var width = (barWidth + 10) * data.length;
 	var height = 200;
 
-	var x = d3.scaleLinear().domain([0, data.length]).range([0, width]);
-	var y = d3.scaleLinear().domain([0, d3.max(data, function(datum) { return datum.books; })]).
-	  rangeRound([0, height]);
+	var x = d3.scaleLinear()
+			.domain([0, data.length])
+			.range([0, width]);
+			
+	var y = d3.scaleLinear()
+			.domain([0, d3.max(data, function(datum) { return datum.books; })])
+			.rangeRound([0, height]);
 
 	// add the canvas to the DOM
 	var barDemo = d3.select("#example").
@@ -53,20 +57,20 @@ function interactiveBar() {
 	  return d.count;
 	});
 	var x = d3.scaleLinear()
-	  .range([0, 300])
-	  .domain([0, maxCount]);
+			.range([0, 300])
+			.domain([0, maxCount]);
 	var y = d3.scaleBand()
-	  .rangeRound([0, 75])
-	  .domain(sales.map(function(d, i) {
-		return d.product;
-	  }));
+			.domain(sales.map(function(d, i) {
+				return d.product;
+			})
+			.range([0,75]));
 
 	newRects.append('rect')
 	  .attr('x', x(0))
 	  .attr('y', function(d, i) {
 		return y(d.product);
 	  })
-	  .attr('height', y.rangeBand())
+	  .attr('height', y.bandwidth())
 	  .attr('width', function(d, i) {
 		return x(d.count);
 	  });
