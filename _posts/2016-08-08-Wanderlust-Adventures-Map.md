@@ -13,10 +13,9 @@ tag:
 comments: true
 ---
 
-<div>
-	<div id="map" style="width=800px; height=400px;">
-	</div>
-</div>
+<div id="map" style="width=800px; height=400px;"></div>
+<iframe src="https://www.google.com/maps/d/embed?mid=1ELysbd_HcyENvsuK5auBFbFpwZ0" width="640" height="480"></iframe>
+
 <script>
 	function initMap() {
         var mapDiv = document.getElementById('map');
