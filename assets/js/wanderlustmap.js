@@ -8,4 +8,3 @@ function initMap() {
 		window.alert("Loaded Google Map, adding WanderlustSA markers...");
 }
 
-window.onload = initMap;
