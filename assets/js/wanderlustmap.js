@@ -1,6 +1,6 @@
 function initMap() {
-		
-        document.getElementById('map-hider').appendChild("map");
+		var element = document.createElement("map");
+        document.getElementById('map-hider').appendChild(element);
 		var mapDiv = document.getElementById('map');
 		mapDiv.style.cssText = 'width:200px; height:200px;';
         var map = new google.maps.Map(mapDiv, {
