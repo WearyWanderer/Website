@@ -1,5 +1,5 @@
 function populateMarkers(mapData) {
-	console.log(mapData[0][1]);
+	console.log(mapData[0]);
 }
 
 function initMap() {
