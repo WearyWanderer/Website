@@ -1,4 +1,5 @@
 function populateMarkers(mapData) {
+	var geocoder = new google.maps.Geocoder();
 	for (i = 1; i < mapData.length; i++) {
 		console.log(mapData[i][1]);
 		
