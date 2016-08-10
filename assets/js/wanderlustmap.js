@@ -23,7 +23,7 @@ function initMap() {
 		download: true,
 		complete: function(results) {
 			console.log(results);
-			populateMarkers(results);
+			populateMarkers(results.data);
 		}
 	});
 }
