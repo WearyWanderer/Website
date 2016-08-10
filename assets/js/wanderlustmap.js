@@ -1,5 +1,7 @@
 function populateMarkers(mapData) {
-	console.log(mapData[1][1]);
+	for (i = 1; i < mapData.length; i++) {
+		console.log(mapData[i][1]);
+	}
 }
 
 function initMap() {
