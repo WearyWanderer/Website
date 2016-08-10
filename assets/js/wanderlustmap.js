@@ -4,15 +4,15 @@ function initMap() {
 		mapDiv.id = 'map';
 		mapDiv.style.cssText = 'width:100%; height:750px; margin: auto';
         var map = new google.maps.Map(mapDiv, {
-            center: {lat: 44.540, lng: -78.546},
-            zoom: 8
+            center: {lat: 54.2774, lng: -1.7126},
+            zoom: 4
         });
 		
 
 		marker = new google.maps.Marker({
           map: map,
           animation: google.maps.Animation.DROP,
-          position: {lat: 44.540, lng: -78.546}
+          position: {lat: 54.2774, lng: -1.7126}
         });
 
 }
