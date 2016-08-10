@@ -15,6 +15,12 @@ function initMap() {
           position: {lat: 54.2774, lng: -1.7126}
         });
 
+		Papa.parse("https://rawcdn.githack.com/WearyWanderer/wearywanderer.github.io/master/assets/csv/wanderlustvids.csv", {
+			download: true,
+			complete: function(results) {
+				console.log(results);
+			}
+		});
 }
 
 window.onload = initMap;
