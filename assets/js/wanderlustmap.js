@@ -5,7 +5,7 @@ function initMap() {
 		mapDiv.style.cssText = 'width:100%; height:750px; margin: auto';
         var map = new google.maps.Map(mapDiv, {
             center: {lat: 54.2774, lng: -1.7126},
-            zoom: 4
+            zoom: 7
         });
 		
 
