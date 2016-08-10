@@ -1,4 +1,4 @@
-function populateMarkers(mapData) {
+function populateMarkers(mapData, map) {
 	var geocoder = new google.maps.Geocoder();
 	for (i = 1; i < mapData.length; i++) {
 		console.log(mapData[i][1]);
@@ -35,7 +35,7 @@ function initMap() {
 		download: true,
 		complete: function(results) {
 			console.log(results);
-			populateMarkers(results.data);
+			populateMarkers(results.data, map);
 		}
 	});
 }
