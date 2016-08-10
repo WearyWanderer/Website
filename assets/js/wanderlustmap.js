@@ -8,7 +8,13 @@ function initMap() {
             zoom: 8
         });
 		
-		window.alert("Loaded Google Map, adding WanderlustSA markers...");
+
+		marker = new google.maps.Marker({
+          map: map,
+          animation: google.maps.Animation.DROP,
+          position: {lat: 44.540, lng: -78.546}
+        });
+
 }
 
 window.onload = initMap;
