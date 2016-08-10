@@ -1,6 +1,22 @@
 function populateMarkers(mapData) {
 	for (i = 1; i < mapData.length; i++) {
 		console.log(mapData[i][1]);
+		
+		geocoder.geocode({'address': mapData[i][4]}, function(results, status) 
+		{
+			if (status === google.maps.GeocoderStatus.OK) 
+			{
+				marker = new google.maps.Marker({
+				map: map,
+				position: results[0].geometry.location,
+				animation: google.maps.Animation.DROP
+				});
+			} 
+			else 
+			{
+			  alert('Geocode was not successful for the following reason: ' + status);
+			}
+		});
 	}
 }
 
@@ -17,7 +33,7 @@ function initMap() {
 
 	marker = new google.maps.Marker({
 	  map: map,
-	  animation: google.maps.Animation.DROP,
+	  
 	  position: {lat: 54.2774, lng: -1.7126}
 	});
 
