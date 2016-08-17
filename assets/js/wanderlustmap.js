@@ -24,7 +24,7 @@ function populateMarkers(mapData, map) {
 		console.log(mapData[i][1]);
 		
 		setTimeout(addNewMarker, timeToAddMarker, mapData[i][4], map, geocoder);
-		timeToAddMarker += 1000;
+		timeToAddMarker += 1000 - (i * 25);
 	}
 }
 
