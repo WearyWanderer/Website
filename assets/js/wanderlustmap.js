@@ -1,4 +1,4 @@
-function addNewMarker(locationString, map) {
+function addNewMarker(locationString, map, geocoder) {
 	geocoder.geocode({'address': locationString}, function(results, status) 
 	{
 		if (status === google.maps.GeocoderStatus.OK) 
@@ -23,7 +23,7 @@ function populateMarkers(mapData, map) {
 	for (i = 1; i < mapData.length; i++) {
 		console.log(mapData[i][1]);
 		
-		setTimeout(addNewMarker, timeToAddMarker, mapData[i][4], map);
+		setTimeout(addNewMarker, timeToAddMarker, mapData[i][4], map, geocoder);
 		timeToAddMarker += 1000;
 	}
 }
