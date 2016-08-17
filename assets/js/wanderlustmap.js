@@ -1,23 +1,30 @@
+function addNewMarker(locationString, map) {
+	geocoder.geocode({'address': locationString}, function(results, status) 
+	{
+		if (status === google.maps.GeocoderStatus.OK) 
+		{
+			marker = new google.maps.Marker({
+			map: map,
+			position: results[0].geometry.location,
+			animation: google.maps.Animation.DROP
+			});
+		} 
+		else 
+		{
+		  alert('Geocode was not successful for the following reason: ' + status);
+		}
+	});
+}
+
+
 function populateMarkers(mapData, map) {
 	var geocoder = new google.maps.Geocoder();
+	var timeToAddMarker = 1000;
 	for (i = 1; i < mapData.length; i++) {
 		console.log(mapData[i][1]);
 		
-		geocoder.geocode({'address': mapData[i][4]}, function(results, status) 
-		{
-			if (status === google.maps.GeocoderStatus.OK) 
-			{
-				marker = new google.maps.Marker({
-				map: map,
-				position: results[0].geometry.location,
-				animation: google.maps.Animation.DROP
-				});
-			} 
-			else 
-			{
-			  alert('Geocode was not successful for the following reason: ' + status);
-			}
-		});
+		setTimeout(function(){addNewMarker(mapData[i][4], map)}, timeToAddMarker);
+		timeToAddMarker += 1000;
 	}
 }
 
