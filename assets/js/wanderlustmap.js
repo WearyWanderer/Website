@@ -23,7 +23,7 @@ function populateMarkers(mapData, map) {
 	for (i = 1; i < mapData.length; i++) {
 		console.log(mapData[i][1]);
 		
-		setTimeout(function(){addNewMarker(mapData[i][4], map)}, timeToAddMarker);
+		setTimeout(addNewMarker, timeToAddMarker, mapData[i][4], map);
 		timeToAddMarker += 1000;
 	}
 }
