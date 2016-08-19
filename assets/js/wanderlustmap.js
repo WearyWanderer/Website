@@ -1,19 +1,22 @@
 function addNewMarker(locationString, map, geocoder) {
-	geocoder.geocode({'address': locationString}, function(results, status) 
+	if(locationString)
 	{
-		if (status === google.maps.GeocoderStatus.OK) 
+		geocoder.geocode({'address': locationString}, function(results, status) 
 		{
-			marker = new google.maps.Marker({
-			map: map,
-			position: results[0].geometry.location,
-			animation: google.maps.Animation.DROP
-			});
-		} 
-		else 
-		{
-		  alert('Geocode was not successful for the following reason: ' + status);
-		}
-	});
+			if (status === google.maps.GeocoderStatus.OK) 
+			{
+				marker = new google.maps.Marker({
+				map: map,
+				position: results[0].geometry.location,
+				animation: google.maps.Animation.DROP
+				});
+			} 
+			else 
+			{
+			  alert('Geocode was not successful for the following reason: ' + status);
+			}
+		});
+	}
 }
 
 
