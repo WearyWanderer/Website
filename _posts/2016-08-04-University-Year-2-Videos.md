@@ -14,8 +14,11 @@ comments: true
 ---
 
 In the final four weeks on my second year at University, myself and four other programming students came together as a team in the Game Jam module to produce a prototype level/demo for a game of our own design, using the Unity engine.
+
 The end result of these several weeks was CLMRTS (Competitive Lane-Management & Real Time Strategy - quite the mouthful and obviously a placeholder!), an 'Anti-MOBA' of sorts, taking inspiration from Warcraft 3 custom maps like <i>Footman Wars</i>. Our prototype was considered realtively feature rich by the end,
-and was playable enough to have recieved some insightful and positive feedback from testers. CLMRTS managed to receive several of the awards given at the post-module playtesting ceremony, including the 'Best Overall Team' award, an achievement we are all proud of.
+and was playable enough to have recieved some insightful and positive feedback from testers. 
+
+CLMRTS managed to receive several of the awards given at the post-module playtesting ceremony, including the 'Best Overall Team' award, an achievement we are all proud of.
 
 <figure>
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/py53zw_bP48" frameborder="0" allowfullscreen> </iframe>
