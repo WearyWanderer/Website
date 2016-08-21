@@ -19,7 +19,7 @@ and was playable enough to have recieved some insightful and positive feedback f
 
 <figure>
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/py53zw_bP48" frameborder="0" allowfullscreen> </iframe>
-	<figcaption>Demo reel showing some gameplay footage and mechanics in the CLMRTS 0.1 prototype (this was also our final weekly dev-vlog during the module.)</figcaption>
+	<figcaption>Demo reel w/ some gameplay footage & mechanics in the CLMRTS 0.1 prototype (also our final weekly dev-vlog during the module.)</figcaption>
 </figure>
 
       
