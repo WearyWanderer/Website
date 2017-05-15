@@ -12,11 +12,14 @@ tag:
 comments: false
 ---
 
- | Module | Languages Used | Utilities Used |
+ |--------+----------------+----------------|
+ |Module|Languages Used|Utilities Used|
  |:------:|:--------------:|:--------------:|
- | <a href= "https://wearywanderer.github.io/CLMRTS/">Game Jam</a>	| C#	| Unity, Github Desktop, Blender, After Effects	|
- | cell4   | cell5   | cell6   |
- |----
- | cell1   | cell2   | cell3   |
- | cell4   | cell5   | cell6   |
+ |<a href= "https://wearywanderer.github.io/CLMRTS/">Game Jam</a>|C#|Unity, Github Desktop,|
+ |||Blender, After Effects|
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/3DGP/">3D Graphics Programming</a>|OpenGL (4.1)||
+ |--------+----------------+----------------|
+ | Multi-Modal Interfaces   | C#, .NET 4.5|Unity, Speech Recognition|
+ |--------+----------------+----------------|
       
