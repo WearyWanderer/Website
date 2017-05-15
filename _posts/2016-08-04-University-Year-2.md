@@ -13,7 +13,7 @@ comments: false
 ---
 
  | Module | Languages Used | Utilities Used |
- |:-------|:--------------:|---------------:|
+ |:------:|:--------------:|:--------------:|
  | <a href= "https://wearywanderer.github.io/CLMRTS/">Game Jam</a>	| C#	| Unity, Github Desktop, Blender, After Effects	|
  | cell4   | cell5   | cell6   |
  |----
