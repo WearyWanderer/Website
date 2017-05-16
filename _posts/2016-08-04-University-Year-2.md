@@ -12,15 +12,23 @@ tag:
 comments: false
 ---
 
+ Click each module for videos, additonal info & code snippets
+ ============================================================
+
  |--------+----------------+----------------|
  |Module|Languages Used|Utilities Used|
  |:------:|:--------------:|:--------------:|
- |<a href= "https://wearywanderer.github.io/CLMRTS/">Game Jam</a>|C#|Unity, Github Desktop,|
- |||Blender, After Effects|
+ |<a href= "https://wearywanderer.github.io/CLMRTS/">Game Jam</a>|C#|Unity, Github Desktop, Blender, After Effects|
  |--------+----------------+----------------|
- |<a href= "https://wearywanderer.github.io/3DGP/">3D Graphics Programming</a>|OpenGL (4.1)||
+ |<a href= "https://wearywanderer.github.io/3DGP/">3D Graphics Programming</a>|OpenGL (4.1)| NVIDIA NSight Visual Studio Edition|
  |--------+----------------+----------------|
- | Multi-Modal Interfaces   | C#, .NET 4.5|Unity, Speech Recognition|
+ |<a href= "https://wearywanderer.github.io/MMI/">Multi-Modal Interfaces</a>| C#, .NET 4.5|Unity, Speech Recognition|
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/GEC/">Games Engine Construction</a>| C++ ||
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/AS/">Animation & Simulation (Particles & Physics)</a>| C++ ||
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/AI1/">AI Programming (RRT Pathfinding)</a>| C++ | SFML|
  |--------+----------------+----------------|
  {:.mbtablestyle}
       
