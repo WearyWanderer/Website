@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "University: Unity Game Jam"
-date:   2016-04-06
+title:  "Amplience demo work"
+date:   2016-05-015
 excerpt: "Language Used: C#, HLSL Shader Programming | Utilities Used: Unity, Github Desktop"
 visible: false
 tag:
