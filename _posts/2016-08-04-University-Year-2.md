@@ -30,5 +30,7 @@ Click each module to see videos, screenshots, additional info and code snippets
  |--------+----------------+----------------|
  |<a href= "https://wearywanderer.github.io/AI1/">AI Programming (RRT Pathfinding)</a>| C++ | SFML|
  |--------+----------------+----------------|
+ |Network & Concurrency Programming| Erlang, C++ | **Description only** Used Erlang (functional language) to create a server side chat application, whilst C++ was used to drive the clients. Multithreaded to accept many clients with individual private ocnversations and group chats|
+ |--------+----------------+----------------|
  {:.mbtablestyle}
       
