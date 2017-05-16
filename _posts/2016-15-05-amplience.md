@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Amplience demo work"
-date:   2016-05-015
+date:   2016-05-15
 excerpt: "Language Used: C#, HLSL Shader Programming | Utilities Used: Unity, Github Desktop"
 visible: false
 tag:
