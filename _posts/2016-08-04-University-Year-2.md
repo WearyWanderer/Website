@@ -22,4 +22,5 @@ comments: false
  |--------+----------------+----------------|
  | Multi-Modal Interfaces   | C#, .NET 4.5|Unity, Speech Recognition|
  |--------+----------------+----------------|
+ {:.mbtablestyle}
       
