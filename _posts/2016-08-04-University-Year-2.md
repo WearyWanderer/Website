@@ -12,8 +12,8 @@ tag:
 comments: false
 ---
 
- Click each module for videos, additonal info & code snippets
- ============================================================
+Click each module to see videos, screenshots, additional info and code snippets
+------
 
  |--------+----------------+----------------|
  |Module|Languages Used|Utilities Used|
