@@ -83,7 +83,7 @@ ENDCG
 result -
 
 ![FURSHOT1]({{ site.url }}/assets/img/portfolioshots/furshot1.png "")
-![FURSHOT2]({{ site.url }}/assets/img/portfolioshots/furshot1.png "")
+![FURSHOT2]({{ site.url }}/assets/img/portfolioshots/furshot2.png "")
 
 <figure>
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/eBejkf74ALo" frameborder="0" allowfullscreen> </iframe>
