@@ -1,19 +1,21 @@
 ---
 layout: post
-title:  "University: Computer Games Programming Year 2"
+title:  "University: Computer Games Programming"
 date:   2016-04-06
-excerpt: "A portal page for the projects related to BSc Computer Games Programming Year 2"
+excerpt: "A portal page for the projects related to BSc Computer Games Programming @ Teesside University"
 project: true
 tag:
 - university
-- year 2
 - portfolio work
 - programming
 comments: false
 ---
 
-Click each module to see videos, screenshots, additional info and code snippets
-------
+Click modules to see videos, screenshots, add. info and code snippets
+=====
+
+Year 2
+-----
 
  |--------+----------------+----------------|
  |Module|Languages Used|Utilities Used|
