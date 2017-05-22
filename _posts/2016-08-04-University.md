@@ -12,9 +12,8 @@ comments: false
 ---
 
 Click modules to see videos, screenshots, add. info & code snippets
-{: style"text-align:center;"}
 =====
-
+{: style="text-align:center;"}
 
 Year 3
 -----
