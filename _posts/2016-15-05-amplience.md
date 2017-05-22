@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page-map
 title:  "Amplience demo work"
 date:   2016-05-15
 excerpt: "Language Used: C#, HLSL Shader Programming | Utilities Used: Unity, Github Desktop"

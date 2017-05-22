@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page-map
 title:  "University: Computer Games Programming"
 date:   2016-04-06
 excerpt: "A portal page for the projects related to BSc Computer Games Programming @ Teesside University"
@@ -11,8 +11,27 @@ tag:
 comments: false
 ---
 
-<style="text-align: center;">Click modules to see videos, screenshots, add. info & code snippets</style>
+Click modules to see videos, screenshots, add. info & code snippets
 =====
+{: style"text-align:center;"}
+
+Year 3
+-----
+
+ |--------+----------------+----------------|
+ |Module|Languages Used|Utilities Used|
+ |:------:|:--------------:|:--------------:|
+ |<a href= "https://wearywanderer.github.io/AGD/">Advanced Games Development</a>|C#, HLSL|Unity, Github, Photoshop, After Effects|
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/MSG/">Multiplayer & Social Games</a>|(Client)C++, (Server)C#| SQLite|
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/MGD/">Mobile Games Development</a>|Objective-C|iOS, Speech Recog, Multi-Touch/Gestures, Motion|
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/FYP/">Final Year Project</a>|C# |Unity,Machine Learning, Neural Networks|
+ |--------+----------------+----------------|
+ |<a href= "https://wearywanderer.github.io/AI/">AI for Games</a>|C# |Naive Bayes, Flocking, Pathfinding|
+ |--------+----------------+----------------|
+ {:.mbtablestyle}
 
 Year 2
 -----
@@ -35,4 +54,6 @@ Year 2
  |Network & Concurrency Programming| Erlang, C++ | |
  |--------+----------------+----------------|
  {:.mbtablestyle}
+ 
+
       
