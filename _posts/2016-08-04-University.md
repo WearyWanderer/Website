@@ -11,7 +11,7 @@ tag:
 comments: false
 ---
 
-Click modules to see videos, screenshots, add. info & code snippets
+Click modules to see videos, screenshots, add. info & code snippets (IN PROGRESS)
 =====
 {: style="text-align:center;"}
 
