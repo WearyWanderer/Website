@@ -11,7 +11,7 @@ tag:
 comments: false
 ---
 
-<center>Click modules to see videos, screenshots, add. info & code snippets</center>
+<style="text-align: center;">Click modules to see videos, screenshots, add. info & code snippets</style>
 =====
 
 Year 2
