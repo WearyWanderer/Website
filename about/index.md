@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Andrew Ayre - Me Myself & I
+title: Bio
 tags: [about, cv, programmer, introduction]
 date: 2016-03-21
 ---
     
-<center>Student & Software Engineer interested in all thing digital & gently encouraging the inevitable cyber-rapture, one commit at a time!</center>
+<center>Software Engineer living in Newcastle-upon-Tyne, UK. Currently specialising in graphics, game engine and AR/VR development.
+Interested in all thing digital & slowly approaching the uncanny valley, one commit at a time!</center>
