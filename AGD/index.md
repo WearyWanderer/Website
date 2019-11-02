@@ -13,7 +13,7 @@ tag:
 comments: false
 ---
 
-<figure style="float:center">
+<figure style="text-align:center">
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/eBejkf74ALo" frameborder="0" style="float:center" allowfullscreen> </iframe>
 	<figcaption>Demonstration of C# skills along with AI and serialisation techniques</figcaption>
 </figure>
