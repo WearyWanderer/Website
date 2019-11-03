@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page-map
 title:  "Mobile Games Development"
 date:   2016-05-15
 excerpt: "Language Used: Objective-C | Utilities Used: iOS, Speech Recognition, Multi-touch Gestures, Motion"

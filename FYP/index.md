@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page-map
 title:  "Final Year Personal Project"
 date:   2016-05-15
 excerpt: "Language Used: C#, HLSL Shader Programming | Utilities Used: Unity, Github Desktop"
