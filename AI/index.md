@@ -1,5 +1,5 @@
 ---
-layout: page-map
+layout: project
 title:  "AI"
 date:   2016-05-15
 excerpt: "Language Used: C#, C++ | Utilities Used: Unity, Visual Studio, GLFW, Github Desktop"
