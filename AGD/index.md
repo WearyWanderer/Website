@@ -1,5 +1,5 @@
 ---
-layout: page-map
+layout: page
 title:  "Advanced Games Development"
 date:   2016-05-15
 excerpt: "Language Used: C#, HLSL Shader Programming | Utilities Used: Unity, Github Desktop"

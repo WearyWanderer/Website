@@ -1,5 +1,5 @@
 ---
-layout: page-map
+layout: page
 title:  "Multiplayer & Social Games"
 date:   2016-05-15
 excerpt: "Language Used: C#, C++ | Utilities Used: .NET, OSX/Windows compatibility, Github Desktop"
